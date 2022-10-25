@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;   /**reasva prazninu koja je po defaultu u browseru**/
+}
+
+#top ul
+{
+    background-color: red;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;  /**RODITELJ ELEMENT **/
+
+}
+
+#top ul li {
+    float: left;   /**DETE**/
+    width: 25%;
+    text-align: center;
+}
+#top ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;   /** a je inline element i prevodimo ga u block ybog rasporeda na str**/
+    padding: 14px;
+    
+}
+#top ul li a:hover {
+    background-color: blue;
+}
+.submenu {
+    position: absolute;
+    background-color: red;
+    width: 25%;  
+    display: none;  /**ne prikazuje se**/
+}
+.dropdown:hover .submenu {
+    display: block;  /**samo na hover ce se prikazivati**/
+}
+

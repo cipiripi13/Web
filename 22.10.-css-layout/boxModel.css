@@ -1,0 +1,123 @@
+.container {
+   
+   width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top ul
+{
+    width: 100%;
+    align: center;
+
+    background-color: red;
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+#top ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;   /** a je inline element i prevodimo ga u block ybog rasporeda na str**/
+    padding: 15px;
+    
+    
+}
+#top ul li a:hover {
+    background-color: blue;
+}
+.submenu {
+    position: absolute;
+    background-color: red;
+    width: 25%;  
+    display: none;  /**ne prikazuje se**/
+}
+.dropdown:hover .submenu {
+    display: block;  /**samo na hover ce se prikazivati**/
+
+}
+
+.images {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+.img {
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+.aside {
+    display:block;
+    height: 300px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    list-style: none;
+    background-color: yellow;
+    position: absolute;
+    left: 1200px;
+    bottom: 200px;
+    
+}
+.aside ul li {
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    box-sizing: border-box;
+    width: 250px;
+    margin: 5px;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+
+}
+
+.table {
+    
+    display: grid;
+    
+}
+    
+
+.firstRow {
+    
+    display: grid;
+    width: 70%;
+   /* border: 1px solid black ; */
+    margin-bottom: 10px;
+    margin-top: -190px;
+    grid-template-columns: auto auto;
+    
+   
+}
+.text {
+    
+    width: 30ch;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    line-height: 1.2;
+    padding: 5px 5px;
+  }
+  .secondRow {
+    /* border: 1px solid black; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+  }
+
+footer p {
+    background-color: rgb(16, 16, 63);
+    font-size: 20px;
+    font-style: bold;
+    font-family: cursive;
+    color: white;
+    height: 40px;
+    padding-left: 250px;
+    
+
+}

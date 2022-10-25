@@ -1,0 +1,26 @@
+.parent {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+h1 {
+    background-color: orange;
+    width: 200px;
+    
+}
+#first-child {
+    background-color: blueviolet;
+    width: 300px;
+    height: 300px;
+}
+#second-child {
+    background-color: red;
+    width: 300px;
+    height: 100px;
+}
+#third-child {
+    background-color: teal;
+    width: 300px;
+    height: 150px;
+}

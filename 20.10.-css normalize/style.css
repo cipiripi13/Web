@@ -1,0 +1,53 @@
+html{
+    font-size: 18px;
+}
+* {
+    box-sizing : border-box;
+}
+.box-model {    
+    width: 500px;
+    height: auto;
+    background-color: aqua;
+    margin: 5px;
+}
+.prvi{
+    background-color: blue;
+    width:;
+    border: 1px solid black;
+    padding: 3px 15px 3px 3px;
+}
+.kontejner {
+    width:200px;
+    height: 200px;
+    border: solid 5px black;
+    background: green;
+    overflow: visible;
+    margin: 0 auto;
+    overflow: scroll;
+}
+p {
+    margin: 10px;
+    background:blue;
+  }
+  .fix{
+    background:red;
+    width:400px;
+    height: 100px;
+    margin:10px;
+  }
+  div.box{
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+
+  }
+  #u-boxu {
+    width: 75%;
+    height: 75%;
+    background-color: antiquewhite;
+  }
+  li {
+    display: inline-block;
+    padding: 10px;
+  }
+ 

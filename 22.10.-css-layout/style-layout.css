@@ -1,0 +1,41 @@
+h1{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    
+
+}
+#first-parag {
+    text-align: left;
+}
+#first-img {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 100px;
+    
+}
+#second-img {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    height: 100px;
+    width: 100px;
+    margin-top: 120px;
+    
+}
+#third-img {
+    position:absolute; 
+    bottom: 0px;
+    top: 800px;
+    left: 400px;
+    height: 100px;
+    width: 100px;
+}
+    a {
+        position: fixed;
+        bottom: 0px;
+        right: 60px;
+    }

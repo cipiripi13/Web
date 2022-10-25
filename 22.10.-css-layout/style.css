@@ -1,0 +1,30 @@
+.parent {
+    background-color: aqua;
+    margin: 150px;
+    z-index: 1;
+}
+h1 {
+    background-color: orange;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+#first-child {
+    background-color: blueviolet;
+    width: 300px;
+    height: 300px;
+}
+#second-child {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}
+#second-child p {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 200px;
+    background-color: green;
+}
