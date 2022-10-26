@@ -1,0 +1,14 @@
+img:nth-child(1) {
+    float: left;
+}
+img:nth-child(2) {
+    float: right;
+}
+/* .clearfix {
+    clear: both;
+} */
+section::after {   /*zato sto je  problem u sekciji resavam to uz pomocu pseudoelementa after*/
+    content: "";    /*nakon sekcije prazan kontent*/
+    display: block;  /*display blok da bi zauzimao citavu sirinu ekrana*/
+    clear: both;  /*i ocistiti sav sadrzaj sa obe str*/
+}  /*rezultat isti kao i sa divom sa klasom clearfix samo izbegavmo nepotrebno ubacivanje praznog diva*/

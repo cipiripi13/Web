@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box; /*kako bi sve margine i padinzi bili uracunati*/
+}
+body {
+    text-align: center; /*odmah centriramo da ne bismo morali kasnije svaki posebno*/
+}
+
+header{
+    background-color: orangered;
+    color: white;
+    padding: 30px;
+}
+.levi,
+ .desni {
+    width: 20%;  /*dobijaju po 20% sto znaci da za glavi sadrzaj ostaje 60%*/
+    background: grey;
+    color: white;
+    float: left;
+    height: 600px;  /*stavili im visinu da bismo videli sta dalje trebamo raditi sa ostalim el-footer npr*/
+
+}
+.main {
+    background: navy;
+    padding: 10px;
+    width: 60%;
+    float: left;
+    color: wheat;
+    height: 600px;  /*stavili im visinu da bismo videli sta dalje trebamo raditi sa ostalim el-footer npr jer nije poprimo izgled kao sto treba*/
+}
+
+footer {
+    background-color: orangered;
+    color: white;
+    padding: 20px;
+}
+
+/* .clearfix {
+    clear: both; 
+}                         ovo je bio jedan od nacina kako smo mogli da resimo
+
+RESAVANJE PREKO PESUDOEMELENTA AFTER NAD ELEMTOM MAIN*/
+
+main::after {
+    content: "";
+    display: block;
+    clear: both;
+}
