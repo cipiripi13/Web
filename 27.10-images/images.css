@@ -1,0 +1,23 @@
+.first {
+    
+    height: 200px;
+    position: relative;
+    left: 600px;
+    /* margin: 0 auto;  kako bismo centrirali ovaj div na sredini */
+   /* background-image: url(./img/photo-1580757468214-c73f7062a5cb.jpg); */
+
+
+
+}
+.second {
+    width: 200px;
+   position: relative;
+   left: 250px;
+   padding: 10px;
+}
+
+.third {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}

@@ -1,0 +1,10 @@
+.first {
+    background-image: url(./img/fixed-ratio.webp);
+    background-repeat:repeat;
+}
+
+.second {
+    background-image: url(./img/photo-1580757468214-c73f7062a5cb.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
