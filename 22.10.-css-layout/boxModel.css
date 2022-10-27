@@ -31,11 +31,16 @@
 }
 .submenu {
     position: absolute;
+    right: 0;
     background-color: red;
-    width: 25%;  
+    width: 200px ; 
     display: none;  /**ne prikazuje se**/
 }
+.dropdown {
+    position: relative;
+}
 .dropdown:hover .submenu {
+    
     display: block;  /**samo na hover ce se prikazivati**/
 
 }

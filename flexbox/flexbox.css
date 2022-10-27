@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container {
+    align-content: flex-start;
+    height: 100vh;
+    display: flex;  /*po defaultu elementi se redjaju jedan ispod drugog, kada mu nacin prikazivanja proemnimo na flex*/
+   flex-direction: row;
+    border: 5px solid yellow; 
+    
+    /* flex-direction: row ;elementi se sada u red nizu, to je kao da smo zadali ovo svojstvo, medjutim kako je to po defaultu nista se ne menja */
+    /* flex-direction: column; promenice postavke na prikazivanje u koloni */
+    flex-wrap: wrap;
+  
+}
+.item {
+    height: 200px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    /* flex-grow: 1;   */
+
+}
+.flex-item-1 {
+    
+    background-color: red;
+    
+}
+.flex-item-2 {
+   
+    background-color: green;
+    
+}
+.flex-item-3 {
+    
+    background-color: blue;
+    
+}
+.flex-item-4 {
+    
+    background-color: blueviolet;
+}
