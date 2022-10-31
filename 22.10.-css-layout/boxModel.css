@@ -33,7 +33,7 @@
     position: absolute;
     right: 0;
     background-color: red;
-    width: 200px ; 
+    width: 200px ; /*samo u px ne i procentima da bi nastelovali sirinu el kada je position absolute*/
     display: none;  /**ne prikazuje se**/
 }
 .dropdown {
