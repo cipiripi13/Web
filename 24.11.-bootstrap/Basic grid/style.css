@@ -1,0 +1,26 @@
+body {
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.row {
+   /* border: 1px solid black; */
+}
+
+.First {
+    border: 2px solid red;
+}
+.Second {
+    border: 2px solid purple;
+}
+.Third {
+    border: 2px solid green;
+}
+.col {
+    border 1px solid black;
+    height: 100px;
+}
+.firstSmall {
+    /* background-color: blue; */
+}

@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container-fluid {
+    /* margin: 12px; */
+    padding: 10px;
+    /* width: 1200px; */
+    border: 1px solid red;
+    height: 50vh;
+}
+.col {
+    border: 1px solid black;
+    background-color: antiquewhite;
+    /* margin: 1px; */
+
+}
+.row {
+    margin: 1px;
+}
