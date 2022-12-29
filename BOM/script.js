@@ -89,13 +89,15 @@ car1 = {
         var sirina = window.screen.width;
         var visina = window.screen.height;
         console.log(`${sirina} je sirina ovog ekrana i ${visina} ovog ekrana`);
-        return sirina;
+        
     };
-    console.log(sirinaVisina());
+    sirinaVisina();
 
    
    
     //window.location
+
+    console.log(window.location);
 
     var urlAdresa = function(){
         return window.location.host;
