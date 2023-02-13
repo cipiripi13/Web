@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling - Football</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            width: 1500px;
+            height: 1000px;
+            background-image: url(field.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #button {
+            width: 120px;
+            height: fit-content;
+            background-color: red;
+            color: white;
+            font-size: 20px;
+            display: flex;
+            position: relative;
+            top: 400px;
+            right: -1300px;
+        
+            
+        }
+    </style>
+</head>
+<body>
+    
+<div class="container">
+
+    <img src="player.png" alt="player" width="100px" class="player">
+    <button type="button" id="button">Stop</button>
+
+</div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="footbal.js"></script>
+</body>
+</html>
