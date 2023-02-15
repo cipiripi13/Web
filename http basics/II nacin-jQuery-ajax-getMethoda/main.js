@@ -30,7 +30,7 @@ $.get("https://jsonplaceholder.typicode.com/todos/", function(data){
     for(i=0; i<data.length; i++){
        //console.log(data[i].title);
        var liE = document.createElement('li');
-       liE.textContent = data[i].title;
+      liE.textContent = data[i].title;
        ulElement.appendChild(liE);
     }
-})
+ })

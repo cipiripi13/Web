@@ -1,7 +1,8 @@
 //Vanila JS --- noviji nacin
 var ulElement = document.getElementById('list');
 fetch("https://jsonplaceholder.typicode.com/todos/")
-  .then((response) => response.json()) //ovde imamo metodu json na responsu
+  .then((response) => response.json())
+   //ovde imamo metodu json na responsu
   //ovde je odg u stringu => vracamo ga zatim kao objekat u json-u
   .then(function(data){
     for( var i=0; i<data.length;  i++){
@@ -9,7 +10,7 @@ fetch("https://jsonplaceholder.typicode.com/todos/")
         liElement.textContent = data[i].title;
         ulElement.appendChild(liElement);
       }
-  });
+ });
 
 
 //   fetch("https://jsonplaceholder.typicode.com/todos/")
