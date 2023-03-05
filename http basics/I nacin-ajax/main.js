@@ -53,4 +53,5 @@ request.open('GET', 'https://jsonplaceholder.typicode.com/todos/');
     }
  }
 // //posalji zahtev onda kada smo pripremili sve kako treba
+//
 request.send();
